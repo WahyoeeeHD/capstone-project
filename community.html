@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community</title>
+  <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body class="bg-veryLightGray text-veryDarkBlue">
+
+  <!-- Header -->
+  <header>
+    <nav class="relative container mx-auto p-6">
+        <div class="flex items-center justify-between">
+          <div class="pt-2">
+            <img src="src/assets/logo-updated.png" alt="" />
+          </div>
+          <div class="hidden space-x-6 md:flex">
+            <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+            <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+          </div>
+          
+          <button
+            id="menu-btn"
+            class="block hamburger md:hidden focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+  
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+            <a href="#">Product</a>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Community</a>
+          </div>
+        </div>
+      </nav>
+</header>
+
+  <!-- Hero Section -->
+  <section class="py-24 bg-white">
+    <div class="container mx-auto text-center px-6">
+      <h1 class="text-5xl font-bold mb-4">Join Our Community</h1>
+      <p class="text-darkGrayishBlue text-lg leading-tight">
+        Connect with like-minded individuals and share your experiences with our products.
+      </p>
+    </div>
+  </section>
+
+  <!-- Discussion Section -->
+  <section class="py-16 bg-veryLightGray">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-8">Latest Discussions</h2>
+      <div class="space-y-6">
+        <!-- Discussion Card 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-2xl">
+          <h3 class="text-xl font-bold mb-2">How to use Product X?</h3>
+          <p class="text-darkGrayishBlue">
+            Posted by <span class="text-brightRed">John Doe</span> on October 10, 2023
+          </p>
+          <p class="text-darkGrayishBlue mt-2">
+            I recently bought Product X and I'm not sure how to set it up. Any tips?
+          </p>
+        </div>
+        <!-- Discussion Card 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-2xl">
+          <h3 class="text-xl font-bold mb-2">Best practices for Product Y</h3>
+          <p class="text-darkGrayishBlue">
+            Posted by <span class="text-brightRed">Jane Smith</span> on October 9, 2023
+          </p>
+          <p class="text-darkGrayishBlue mt-2">
+            Looking for advice on how to get the most out of Product Y.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+</html>
