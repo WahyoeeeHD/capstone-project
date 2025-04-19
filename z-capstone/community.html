@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community</title>
+  <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="relative container mx-auto p-6">
+      <div class="flex items-center justify-between">
+        <div class="pt-2">
+          <a href="./index.html">
+            <img src="src/assets/logo-updated.png" alt="" />
+          </a>
+        </div>
+        <div class="hidden space-x-6 md:flex">
+          <a href="./product.html" class="hover:text-darkGrayishBlue"
+            >Product</a
+          >
+          <a href="./about.html" class="hover:text-darkGrayishBlue">About Us</a>
+          <a href="./careers.html" class="hover:text-darkGrayishBlue"
+            >Careers</a
+          >
+          <a href="./community.html" class="hover:text-darkGrayishBlue"
+            >Community</a
+          >
+        </div>
+
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+          <a href="./product.html">Product</a>
+            <a href="./about.html">About Us</a>
+            <a href="./careers.html">Careers</a>
+            <a href="./community.html">Community</a>
+        </div>
+      </div>
+    </nav>
+</header>
+
+  <section class="py-48 bg-white flex justify-center items-center">
+    <div class="container text-center px-6">
+      <h1 class="text-5xl font-bold mb-4">Join Our Community</h1>
+      <p class="text-darkGrayishBlue text-lg leading-tight">
+        Connect with like-minded individuals and share your experiences with our products.
+      </p>
+    </div>
+  </section>
+
+
+  <section class="py-24 bg-veryLightGray flex items-center justify-center">
+    <div class="container">
+      <h2 class="text-4xl font-bold text-center py-8">Latest Discussions</h2>
+      <div class="flex flex-col md:flex-row gap-4 md:space-y-0 space-y-8">
+        <!-- Discussion Card 1 -->
+        <div class="md:w-1/3 bg-white p-6 rounded-lg shadow-2xl">
+          <h3 class="text-xl font-bold mb-2">How to use Product X?</h3>
+          <p class="text-darkGrayishBlue">
+            Posted by <span class="text-brightRed">John Doe</span> on October 10, 2023
+          </p>
+          <p class="text-darkGrayishBlue mt-2">
+            I recently bought Product X and I'm not sure how to set it up. Any tips?
+          </p>
+        </div>
+        
+        <!-- Discussion Card 2 -->
+        <div class="md:w-1/3 bg-white p-6 rounded-lg shadow-2xl">
+            <h3 class="text-xl font-bold mb-2">Best practices for Product Y</h3>
+            <p class="text-darkGrayishBlue">
+              Posted by <span class="text-brightRed">Jane Smith</span> on October 9, 2023
+            </p>
+            <p class="text-darkGrayishBlue mt-2">
+              Looking for advice on how to get the most out of Product Y.
+            </p>
+          </div>
+        
+          <!-- Discussion Card 3 -->
+        <div class="md:w-1/3 bg-white p-6 rounded-lg shadow-2xl">
+            <h3 class="text-xl font-bold mb-2">Troubleshooting Product Z</h3>
+            <p class="text-darkGrayishBlue">
+              Posted by <span class="text-brightRed">Emily Johnson</span> on October 8, 2023
+            </p>
+            <p class="text-darkGrayishBlue mt-2">
+              My Product Z stopped working after an update. Any solutions?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-veryDarkBlue">
+        <div
+          class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+          <div
+            class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+            <div class="mx-auto my-6 text-center text-white md:hidden">
+              Copyright &copy; 2025, All Rights Reserved
+            </div>
+            <div>
+              <img src="src/assets/logo-white.svg" class="h-8" alt="" />
+            </div>
+            <div class="flex justify-center space-x-4">
+              <a href="#">
+                <img src="src/assets/icon-facebook.svg" alt="" class="h-8" />
+              </a>
+              <a href="#">
+                <img src="src/assets/icon-youtube.svg" alt="" class="h-8" />
+              </a>
+              <a href="#">
+                <img src="src/assets/icon-twitter.svg" alt="" class="h-8" />
+              </a>
+              <a href="#">
+                <img src="src/assets/icon-pinterest.svg" alt="" class="h-8" />
+              </a>
+              <a href="#">
+                <img src="src/assets/icon-instagram.svg" alt="" class="h-8" />
+              </a>
+            </div>
+          </div>
+          <div class="flex justify-around space-x-32">
+            <div class="flex flex-col space-y-3 text-white">
+              <a href="#" class="hover:text-brightRed">Home</a>
+              <a href="#" class="hover:text-brightRed">Pricing</a>
+              <a href="#" class="hover:text-brightRed">Products</a>
+              <a href="#" class="hover:text-brightRed">About</a>
+            </div>
+            <div class="flex flex-col space-y-3 text-white">
+              <a href="#" class="hover:text-brightRed">Careers</a>
+              <a href="#" class="hover:text-brightRed">Community</a>
+              <a href="#" class="hover:text-brightRed">Privacy Policy</a>
+            </div>
+          </div>
+  
+          <div class="flex flex-col justify-between">
+            <div class="hidden text-white md:block">
+              Copyright &copy; 2025, All Rights Reserved
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="src/main.js" type="module"></script>
+      
+</body>
+</html>

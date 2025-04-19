@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+    <header>
+      <nav class="relative container mx-auto p-6">
+        <div class="flex items-center justify-between">
+          <div class="pt-2">
+            <a href="./index.html">
+              <img src="src/assets/logo-updated.png" alt="" />
+            </a>
+          </div>
+          <div class="hidden space-x-6 md:flex">
+            <a href="./product.html" class="hover:text-darkGrayishBlue"
+              >Product</a
+            >
+            <a href="./about.html" class="hover:text-darkGrayishBlue">About Us</a>
+            <a href="./careers.html" class="hover:text-darkGrayishBlue"
+              >Careers</a
+            >
+            <a href="./community.html" class="hover:text-darkGrayishBlue"
+              >Community</a
+            >
+          </div>
+  
+          <button
+            id="menu-btn"
+            class="block hamburger md:hidden focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+  
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+            <a href="./product.html">Product</a>
+            <a href="./about.html">About Us</a>
+            <a href="./careers.html">Careers</a>
+            <a href="./community.html">Community</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="flex items-center justify-center flex-col space-y-12 ">
+        <div class="search-bar">
+            <input
+              type="text"
+              placeholder="Search reviews..."
+              class="search-input-large"
+            />
+            <button class="search-button-large">Search</button>
+        </div>
+        <section class="product-list py-10">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product 1">
+                <h3>Product 1</h3>
+                <button>Review</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product 2">
+                <h3>Product 2</h3>
+                <button>Review</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product 3">
+                <h3>Product 3</h3>
+                <button>Review</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product 4">
+                <h3>Product 4</h3>
+                <button>Review</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product 5">
+                <h3>Product 5</h3>
+                <button>Review</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product 6">
+                <h3>Product 6</h3>
+                <button>Review</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product 7">
+                <h3>Product 7</h3>
+                <button>Review</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product 8">
+                <h3>Product 8</h3>
+                <button>Review</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product 9">
+                <h3>Product 9</h3>
+                <button>Review</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-veryDarkBlue">
+      <div
+        class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+        <div
+          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+          <div class="mx-auto my-6 text-center text-white md:hidden">
+            Copyright &copy; 2025, All Rights Reserved
+          </div>
+          <div>
+            <img src="src/assets/logo-white.svg" class="h-8" alt="" />
+          </div>
+          <div class="flex justify-center space-x-4">
+            <a href="#">
+              <img src="src/assets/icon-facebook.svg" alt="" class="h-8" />
+            </a>
+            <a href="#">
+              <img src="src/assets/icon-youtube.svg" alt="" class="h-8" />
+            </a>
+            <a href="#">
+              <img src="src/assets/icon-twitter.svg" alt="" class="h-8" />
+            </a>
+            <a href="#">
+              <img src="src/assets/icon-pinterest.svg" alt="" class="h-8" />
+            </a>
+            <a href="#">
+              <img src="src/assets/icon-instagram.svg" alt="" class="h-8" />
+            </a>
+          </div>
+        </div>
+        <div class="flex justify-around space-x-32">
+          <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightRed">Home</a>
+            <a href="#" class="hover:text-brightRed">Pricing</a>
+            <a href="#" class="hover:text-brightRed">Products</a>
+            <a href="#" class="hover:text-brightRed">About</a>
+          </div>
+          <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightRed">Careers</a>
+            <a href="#" class="hover:text-brightRed">Community</a>
+            <a href="#" class="hover:text-brightRed">Privacy Policy</a>
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-between">
+          <div class="hidden text-white md:block">
+            Copyright &copy; 2025, All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/main.js" type="module"></script>
+</body>
+</html>
